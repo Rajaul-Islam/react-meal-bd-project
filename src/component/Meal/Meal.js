@@ -2,7 +2,7 @@ import React from 'react';
 import './Meal.css'
 const Meal = (props) => {
     const {strMeal,strArea,idMeal,strMealThumb,strInstructions }=props.meal;
-    console.log(props.meal)
+    // console.log(props.meal)
     return (
         <div onClick={()=>props.showDetails(strMeal)} className='meal'>
             <div>
