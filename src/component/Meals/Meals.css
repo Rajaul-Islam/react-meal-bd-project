@@ -1,0 +1,28 @@
+.meals{
+position: relative;
+    padding: 3rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    background-color:rgb(42, 30, 30);
+}
+.meals-conponent{
+    display: grid;
+    grid-template-columns: 3fr .5fr;
+}
+.meal-details{
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+    background-color: silver;
+    border: 2px solid lightcyan;
+    box-shadow: 10px 10px 5px grey;
+}
+.show-name{
+    background-color: darkcyan;
+    box-shadow: 4px 1px 5px black;
+
+}
+.box{
+    position: relative;
+}

@@ -1,0 +1,10 @@
+.meal{
+    
+    border:1px solid none;
+    background-color: white;
+
+}
+.img-fluid{
+   max-width: 100%; 
+   height: auto; 
+} 
